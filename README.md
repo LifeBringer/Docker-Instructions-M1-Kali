@@ -89,7 +89,7 @@ Type `docker-compose down` to shutdown docker.
 ```bash
 git clone https://github.com/LifeBringer/Docker-Instructions-M1-Kali.git
 DOCKER_BUILDKIT=1 docker compose build
-mkdir kalifolder
+mkdir kaliFolder
 ```
 
 #### Run Wordpress + mysql and Kali containers
