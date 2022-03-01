@@ -38,6 +38,9 @@ Install **Docker Desktop** on your computer
 
 ## Build Docker image from Dockerfile
 
+### Option 0: Use UTM for [free](https://medium.com/macoclock/machow-to-install-kali-linux-on-an-m1-mac-for-free-cffdb9916050) 
+If you want a GUI and want to easily use the browser without having it launch from the terminal. You could just install the ARM64 version of Kali on UTM. Just ensure you follow the instructions exactly. I made the mistake of adding a shared folder early on. Wait until after a successful install and boot before playing around. Bridging the network is okay.
+
 ### Option 1: Build from scratch
 **step1:** Pull the latest Kali release:
 `$ docker pull kalilinux/kali-rolling`
