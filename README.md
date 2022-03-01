@@ -59,6 +59,8 @@ Note: this will take some time!
 	Now install the Top 10 tools to start:
 	`apt install kali-tools-top10`
 	`apt install kali-linux-arm`
+	If you have issues with either of the above try:
+	`apt -y install kali-linux-arm --fix-missing`
 
 To exit the virtual machine, use **Ctrl+D;** Please note that once you exit the virtual machine, the changes that you made inside the virtual machine will NOT remain when you run that Docker image in a new container. Instead, the changes will be made to the existing Docker container. You could start the stopped container and attach to it using:
 `docker start [OPTIONS] CONTAINER [CONTAINER...]`
