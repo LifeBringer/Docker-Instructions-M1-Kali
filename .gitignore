@@ -1,0 +1,9 @@
+# Basics
+.DS_Store
+kaliFolder/
+
+# DB basics
+*.log
+*.sql
+*.sqlite
+__pycache__/
