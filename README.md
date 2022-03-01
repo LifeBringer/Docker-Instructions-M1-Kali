@@ -103,8 +103,8 @@ mkdir kaliFolder
 - Type `exit` to exit the Kali bash shell and to shutdown all running containers use, `docker compose down`
 
 ### Changing Wordpress versions:
-All credit to: https://github.com/0xrutvij/wpVSkali
-Within your docker contianer, install the requirements file for python3 before proceeding `pip3 install -r requirements.txt`
+All credit to: https://github.com/0xrutvij/wpVSkali 
+Within your docker container, install the requirements file for python3 before proceeding `pip3 install -r requirements.txt`
  
  For changing WordPress versions, use the not-wp-dis.py script, usage is as follows:
   ```bash
